@@ -1,5 +1,5 @@
 .App {
-  text-align: right;
+  text-align: center;
 }
 
 .App-logo {
@@ -15,20 +15,33 @@
 } */
 
 .App-header {
-  background-color: whitesmoke;
+  background-color: honeydew;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: top;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(30px);
+  color: black;
+}
+
+.App-Food {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  color: black;
+}
+
+.App-Glucose {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  color: black;
 }
 
 .row {
-  background-color: black;
+  background-color: lavender ;
   display: flex;
-  justify-content: flex-end;
 }
 
 .col-sm-1 {
@@ -37,6 +50,47 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Title {
+  color: black;
+  text-align: center;
+  font-weight: 100;
+  font-size: 70px;
+  padding: 20px;
+  
+}
+
+.Description {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 30px;
+  background-color: white;
+}
+
+.Links {
+  text-align: right;
+
+}
+
+.Gallery {
+  display: flex;
+}
+
+.Heading {
+  flex-wrap: nowarp;
+}
+
+.Links {
+  display: flex;
+}
+
+.Foodlog {
+  margin-right: 350px;
+}
+
+.Glucoselog {
+  margin-left: 350px;
 }
 
 @keyframes App-logo-spin {

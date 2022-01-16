@@ -21,8 +21,6 @@ function App() {
           <Link to="/glucose">
             <p className="Glucoselog">Click to log glucose</p>
           </Link>
-
-          
     </nav>
     <Routes>
         <Route path="/food" element={<Foodlog/>}/>

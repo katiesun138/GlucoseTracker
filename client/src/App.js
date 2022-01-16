@@ -41,13 +41,13 @@ function App() {
 function Foodlog() {
   return (
     <div>
-      <header>Food Logger</header>
+      <h1>Food Logger</h1>
       <div>
         <Foods />
         <FoodList />
         <AddFood />
       </div>
-    </div>
+    </div >
   );
 };
 
@@ -75,6 +75,8 @@ function Glucose() {
         <div>
           <Header />
         </div>
+        <br></br>
+        <br></br>
         <div className="containerleft">
           <StartLevel />
         </div>

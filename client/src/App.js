@@ -1,9 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import React, {Component} from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import { Header } from './components/Header';
 import { StartLevel } from './components/StartLevel';
 import { CurrentLevel } from './components/CurrentLevel';
@@ -12,7 +9,7 @@ import { FoodList } from './components/FoodList';
 import { AddFood } from './components/AddFood';
 import { StartInput } from './components/StartInput';
 
-import {BrowserRouter as Router, Route, Routes, Link, Switch} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
 
 function App() {
   return (

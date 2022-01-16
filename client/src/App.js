@@ -48,15 +48,15 @@ function App() {
 
     
     <Router>
-      <nav>
+      <nav className='NavBar'>
         <Link to="/">
-          <p className="Home">Go back Home</p>
+          <p className="Home">Home</p>
         </Link>
         <Link to="/food">
-          <p className="Foodlog">Click to log food</p>
+          <p className="Foodlog">Click to Log Food</p>
         </Link>
         <Link to="/glucose">
-          <p className="Glucoselog">Click to log glucose</p>
+          <p className="Glucoselog">Click to Log Glucose</p>
         </Link>
       </nav>
       <Routes>
@@ -127,14 +127,19 @@ let Foodlog =()=>{
 
 function Home() {
   return (
-    <div className="App">
+    <div >
       <header className="App-header">
         <h1 className="Title"> Glucose Tracker</h1>
         <p className="Description">Our Glucose Tracker helps record your glucose levels and an estimate of glucose intake
           throughout the day. By carefully monitoring glucose intake, health suggestions will be given.</p>
         <div className="Gallery">
+
+        <Link to="/food">
           <img src={require('./images/Food.jpeg')} className="App-Food" height={500} width={900} />
+        </Link>
+        <Link to="/food">
           <img src={require('./images/Glucose.jpeg')} className="App-Glucose" height={500} width={900} />
+        </Link>
         </div>
       </header>
 

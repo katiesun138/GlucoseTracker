@@ -10,23 +10,49 @@
 }
 
 .Home {
-  position: relative;
+  position: absolute;
   z-index: 2;
   left: 10px;
+  top: 20px;
+  color: rgb(84, 112, 239);
+  font-size: 30px;
+  text-decoration: none;
+  background-color: #fc7f59;
+  text-align: center;
+  width: 190px;
+  height: 100px;
+  padding: 30px;
+
 }
 
 .Foodlog {
-  position: relative;
+  position: absolute;
   z-index: 2;
-  top: 760px;
-  left: 400px;
+  top: 20px;
+  left: 650px;
+  padding: 30px;
+  width: 350px;
+  color: rgb(84, 112, 239);
+  height: 100px;
+  font-size: 30px;
+  text-decoration: none;
+  background-color: #c9bdff;
+  text-align: center;
 }
 
 .Glucoselog {
-  position: relative;
+  position: absolute;
+  text-align: center;
   z-index: 2;
-  top: 720px;
-  left: 930px;
+  left: 700px;
+  top: 20px;
+  padding: 30px;
+  height: 100px;
+  width: 350px;
+  color: rgb(84, 112, 239);
+  font-size: 30px;
+  text-decoration: none;
+  background-color: #c9bdff;
 }
 
 
@@ -45,6 +71,7 @@
   justify-content: top;
   font-size: calc(30px);
   color: black;
+  margin-top: 130px;
 }
 
 .App-Food {
@@ -169,6 +196,7 @@ h4 {
 
 .Glucose-page {
   background-color: honeydew;
+  margin-top: 150px;
 }
 
 .Foodlog-page {
@@ -189,12 +217,16 @@ h4 {
   flex-direction: column;
   gap: 10px;
   padding: 1rem;
+  padding-top: 180px;
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
 }
+/* .NavBar{
+  background-color: #2ecc71;
+} */
 
 th,
 td {

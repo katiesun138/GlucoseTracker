@@ -1,10 +1,31 @@
 .App {
   text-align: center;
+  position: relative;
+  top: -120px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Home {
+  position: relative;
+  z-index: 2;
+}
+
+.Foodlog {
+  position: relative;
+  z-index: 2;
+  top: 760px;
+  left: 400px;
+}
+
+.Glucoselog {
+  position: relative;
+  z-index: 2;
+  top: 720px;
+  left: 930px;
 }
 
 
@@ -85,9 +106,6 @@
   display: flex;
 }
 
-.Foodlog {
-  margin-right: 350px;
-}
 
 .Glucoselog {
   margin-left: 350px;

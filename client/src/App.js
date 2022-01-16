@@ -40,7 +40,7 @@ function App() {
 
 function Foodlog() {
   return (
-    <div>
+    <div className="Foodlog-page">
       <h1>Food Logger</h1>
       <div>
         <Foods />
@@ -70,7 +70,7 @@ function Home() {
 
 function Glucose() {
   return (
-    <div>
+    <div className="Glucose-page">
       <center>
         <div>
           <Header />

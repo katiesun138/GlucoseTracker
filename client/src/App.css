@@ -12,6 +12,7 @@
 .Home {
   position: relative;
   z-index: 2;
+  left: 10px;
 }
 
 .Foodlog {
@@ -164,6 +165,14 @@ h4 {
 
 .level.change {
     color: #c0392b;
+}
+
+.Glucose-page {
+  background-color: honeydew;
+}
+
+.Foodlog-page {
+  background-color: honeydew;
 }
 
 @keyframes App-logo-spin {

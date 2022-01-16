@@ -93,6 +93,61 @@
   margin-left: 350px;
 }
 
+.btn {
+  cursor: pointer;
+  background-color: #9c88ff;
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  border: 0;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
+}
+
+.containerleft {
+  float: left;
+  margin: 30px auto;
+  width: 350px;
+}
+
+.containerright {
+    float: right;
+    margin: 30px auto;
+    width: 350px;
+}
+
+h1 {
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+h3 {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  margin: 40px 0 10px;
+}
+
+h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.level {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+.level.target {
+    color: #2ecc71;
+}
+
+.level.change {
+    color: #c0392b;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -4,6 +4,13 @@ import React, {Component} from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Header } from './components/Header';
+import { StartLevel } from './components/StartLevel';
+import { CurrentLevel } from './components/CurrentLevel';
+import { Foods } from './components/Foods';
+import { FoodList } from './components/FoodList';
+import { AddFood } from './components/AddFood';
+import { StartInput } from './components/StartInput';
 
 import {BrowserRouter as Router, Route, Routes, Link, Switch} from "react-router-dom";
 
@@ -56,7 +63,21 @@ let Home = () =>{
 function Glucose(){
   return(
     <div>
-      <h2>THIS IS FOR TRACKING GLUCOSE</h2>
+      <center> 
+      <div>
+          <Header />
+      </div>
+      <div className="containerleft">
+        <StartLevel />
+      </div>
+      <div className="containerright">
+        <CurrentLevel />
+      </div>
+      </center> 
+      <Foods />
+      <FoodList />
+      <AddFood />
+      <StartInput />
     </div>
   );
 }
